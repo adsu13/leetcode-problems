@@ -1,0 +1,12 @@
+from collections import defaultdict
+class Solution:
+    def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:
+        domino_count = defaultdict(int)
+        count = 0
+        for domino in dominoes:
+            normalized = tuple(sorted(domino))
+            domino_count[normalized] += 1
+        for cnt in domino_count.values():
+            if cnt >= 2:
+                count += cnt * (cnt - 1) // 2
+        return count
