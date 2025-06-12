@@ -1,4 +1,4 @@
-#3. Longest Substring Without Repeating Characters
+#_3_longest_substring_without_repeating_characters
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         char_index = {}
