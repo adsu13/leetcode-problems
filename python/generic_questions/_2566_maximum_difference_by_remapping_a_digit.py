@@ -1,4 +1,3 @@
-#_2566_maximum_difference_by_remapping_a_digit
 class Solution:
     def minMaxDifference(self, num: int) -> int:
         s = str(num)
