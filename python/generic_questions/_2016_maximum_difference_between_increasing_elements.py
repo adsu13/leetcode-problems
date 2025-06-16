@@ -1,4 +1,3 @@
-#leetcode 2016
 class Solution:
     def maximumDifference(self, nums: List[int]) -> int:
         min_val = nums[0]
