@@ -1,3 +1,4 @@
+#_3405_count_the_number_of_arrays_with_k_matching_adjacent_elements
 class Solution:
     def countGoodArrays(self, n: int, m: int, k: int) -> int:
         MOD = 10**9 + 7
