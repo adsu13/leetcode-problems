@@ -3,7 +3,6 @@ class Solution:
         nums.sort()
         n = len(nums)
         closest_sum = float('inf')
-
         for i in range(n - 2):
             left = i + 1
             right = n - 1
