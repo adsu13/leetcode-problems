@@ -1,3 +1,4 @@
+#_2294_partition_array_such_that_maximum_difference_is_k
 class Solution:
     def partitionArray(self, nums: List[int], k: int) -> int:
         if not nums:
