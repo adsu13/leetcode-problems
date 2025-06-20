@@ -1,3 +1,4 @@
+#_440_k-th_smallest_in_lexicographical_order
 class Solution:
     def findKthNumber(self, n: int, k: int) -> int:
         result = 1
