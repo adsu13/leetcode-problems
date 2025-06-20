@@ -1,3 +1,4 @@
+#_1128_number_of_equivalent_domino_pairs
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         if len(s) <= 1:
