@@ -1,3 +1,4 @@
+#_386_lexicographical_numbers
 class Solution:
     def lexicalOrder(self, n: int) -> List[int]:
         result = []
