@@ -1,4 +1,3 @@
-#_15_3_sum
 
 class Solution:
     def threeSum(self, nums):
